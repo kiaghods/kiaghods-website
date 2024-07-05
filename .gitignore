@@ -1,0 +1,27 @@
+_site
+.sass-cache
+.jekyll-cache
+.jekyll-metadata
+vendor
+
+# Node.js / npm
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# Python
+__pycache__/
+
+# Compiled files
+*.min.js
+*.min.css
+
+# IDE / Editor specific
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Miscellaneous
+.DS_Store
+Thumbs.db
