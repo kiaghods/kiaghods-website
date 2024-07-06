@@ -6,13 +6,24 @@ This is the repository for my personal website, which is hosted at [kiaghods.com
 
 The website is structured as follows:
 
-- **index.html**: Main landing page.
-- **portfolio/**: Contains individual project pages.
-- **styles/**: Contains CSS styles.
-- **scripts/**: Contains JavaScript files.
-- **media/**: Contains images and icons.
-  - **favicon_io/**: Contains favicon files.
+- **_pages/**: Contains individual pages such as the main landing page and coursework page.
+  - **index.md**: Main landing page.
+  - **courses.md**: Coursework page.
+- **_portfolio/**: Contains individual project pages.
+- **_layouts/**: Contains the layout files for the site.
+  - **default.html**: Default layout for the pages.
+- **assets/**: Contains CSS styles, JavaScript files, and media.
+  - **css/**: Contains CSS styles.
+    - **main.css**: Main stylesheet.
+  - **js/**: Contains JavaScript files.
+    - **main.js**: Main JavaScript file.
+  - **media/**: Contains images and icons.
+    - **favicon_io/**: Contains favicon files.
+- **_config.yml**: Jekyll configuration file.
+- **Gemfile**: Ruby dependencies for the project.
+- **Gemfile.lock**: Lock file for Ruby dependencies.
 - **CNAME**: Custom domain configuration for GitHub Pages.
+- **.github/workflows/deploy.yml**: GitHub Actions workflow for automatic deployment.
 
 ## Installation
 
@@ -24,7 +35,21 @@ To run this project locally:
     cd kiaghods-website
     ```
 
-2. Open the `index.html` file in your browser to view the website.
+2. Install the dependencies:
+    ```bash
+    bundle install
+    ```
+
+3. Build the site and make it available on a local server:
+    ```bash
+    bundle exec jekyll serve
+    ```
+
+4. Open your web browser and navigate to `http://localhost:4000` to view the website.
+
+## Deployment
+
+The website is automatically deployed to GitHub Pages using GitHub Actions. On every push to the `main` branch, the site is built and the contents of the `_site` directory are pushed to the `gh-pages` branch.
 
 ## License
 
