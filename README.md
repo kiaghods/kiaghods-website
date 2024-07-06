@@ -22,6 +22,8 @@ The website is structured as follows:
 - **_config.yml**: Jekyll configuration file.
 - **Gemfile**: Ruby dependencies for the project.
 - **Gemfile.lock**: Lock file for Ruby dependencies.
+- **package.json**: Node.js dependencies for the project.
+- **gulpfile.js**: Gulp task definitions.
 - **CNAME**: Custom domain configuration for GitHub Pages.
 - **.github/workflows/deploy.yml**: GitHub Actions workflow for automatic deployment.
 
@@ -35,21 +37,45 @@ To run this project locally:
     cd kiaghods-website
     ```
 
-2. Install the dependencies:
+2. Install the Ruby dependencies:
     ```bash
     bundle install
     ```
 
-3. Build the site and make it available on a local server:
+3. Install the Node.js dependencies:
+    ```bash
+    npm install
+    ```
+
+4. Build the site and make it available on a local server:
     ```bash
     bundle exec jekyll serve
     ```
 
-4. Open your web browser and navigate to `http://localhost:4000` to view the website.
+5. Open your web browser and navigate to `http://localhost:4000` to view the website.
+
+## Gulp Tasks
+
+This project uses Gulp to automate tasks such as minifying CSS and JavaScript files.
+
+- **Minify CSS**:
+    ```bash
+    gulp minify-css
+    ```
+
+- **Minify JavaScript**:
+    ```bash
+    gulp minify-js
+    ```
+
+- **Watch for changes**:
+    ```bash
+    gulp watch
+    ```
 
 ## Deployment
 
-The website is automatically deployed to GitHub Pages using GitHub Actions. On every push to the `main` branch, the site is built and the contents of the `_site` directory are pushed to the `gh-pages` branch.
+The website is automatically deployed to GitHub Pages using GitHub Actions. On every push to the `master` branch, the site is built and the contents of the `_site` directory are pushed to the `gh-pages` branch.
 
 ## License
 
