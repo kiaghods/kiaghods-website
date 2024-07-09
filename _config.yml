@@ -1,0 +1,43 @@
+title: Kia Ghods' Personal Portfolio
+email: kia.ghods@princeton.edu
+description: >- 
+  Hi I'm Kia -- math + cs @ Princeton. Welcome to my personal portfolio!
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "https://kiaghods.com" # the base hostname & protocol for your site, e.g. http://example.com
+# twitter_username: ""
+github_username: kiaghods
+linkedin_username: kia-ghods
+googlescholar_username: maFTcpkAAAAJ
+
+# Build settings
+theme: minima
+plugins:
+  - jekyll-feed
+  - jekyll-minifier
+
+collections:
+  pages:
+    output: true
+    permalink: /:path/
+  portfolio:
+    output: true
+    permalink: /portfolio/:path/
+
+defaults:
+  - scope:
+      path: "assets/*"
+    values:
+      headers:
+        Cache-Control: "public, max-age=31536000"
+
+exclude:
+  - .sass-cache/
+  - .jekyll-cache/
+  - gemfiles/
+  - Gemfile
+  - Gemfile.lock
+  - node_modules/
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/

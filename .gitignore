@@ -1,0 +1,30 @@
+# Jekyll
+_site/
+.jekyll-cache/
+.jekyll-metadata
+
+# Sass
+.sass-cache/
+
+# Temporary files
+*.tmp
+*.swp
+*.log
+
+# Operating System files
+.DS_Store
+Thumbs.db
+
+# Node.js
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# Ruby
+.bundle/
+vendor/bundle/
+
+# Other
+.idea/
+.vscode/
+main.min.min.*
