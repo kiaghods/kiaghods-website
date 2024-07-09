@@ -110,8 +110,10 @@
     <script src="{{ '/assets/js/main.js' | relative_url }}"></script>
     <script>
         document.addEventListener("DOMContentLoaded", function() {
-            const loadingScreen = document.getElementById('loading-screen');
-            loadingScreen.style.display = 'none';
+            setTimeout(function() {
+                const loadingScreen = document.getElementById('loading-screen');
+                loadingScreen.style.display = 'none';
+            }, 75); 
         });
     </script>
 </body>
