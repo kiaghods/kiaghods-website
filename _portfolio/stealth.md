@@ -6,7 +6,7 @@ title: "Stealth Startup - Kia Ghods"
 <main>
     <section id="description">
         <h2>Stealth Startup</h2>
-    <img src="{{ '/assets/media/FighterJet.jpeg' | relative_url }}" alt="Stealth Startup" class="portfolio-img">
+    <img src="{{ '/assets/media/FighterJet.webp' | relative_url }}" alt="Stealth Startup" class="portfolio-img" type="image/webp>
         <p>Working with a small team to develop a paradigm shift in social interaction (NDA-Bound).</p>
         <p class="references">
             References:

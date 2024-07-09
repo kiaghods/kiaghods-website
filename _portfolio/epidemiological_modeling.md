@@ -6,7 +6,7 @@ title: "Epidemiological Modeling - Kia Ghods"
 <main>
     <section id="description">
         <h2>Epidemiological Modeling @ FAU, Tuncer Group</h2>
-    <img src="{{ '/assets/media/MCS_Figure.jpg' | relative_url }}" alt="Monte Carlo Simulation Diagram" class="portfolio-img">
+    <img src="{{ '/assets/media/MCS_Figure.webp' | relative_url }}" alt="Monte Carlo Simulation Diagram" class="portfolio-img">
         <p>Researcher in the mathematical modeling of disease at the <a href="https://www.math.fau.edu/" target="_blank">FAU Dept. of Mathematics</a>, mentored by <a href="https://www.math.fau.edu/people/faculty/tuncer.php" target="_blank">Dr. Necibe Tuncer</a>.</p>
         <p>Utilized systems of ordinary differential equations (ODEs) to study the within-host dynamics of HIV infection. Co-First on two papers:</p>
         <ul>

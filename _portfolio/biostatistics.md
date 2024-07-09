@@ -6,7 +6,7 @@ title: "Biostatistics @ SIBDS - Kia Ghods"
 <main>
     <section id="description">
         <h2>Biostatistics @ SIBDS</h2>
-    <img src="{{ '/assets/media/SIBDS.jpeg' | relative_url }}" alt="SIBDS Cohort Photo" class="portfolio-img">
+    <img src="{{ '/assets/media/SIBDS.webp' | relative_url }}" alt="SIBDS Cohort Photo" class="portfolio-img">
         <p>I spent the summer of 2022 at the <a href="https://www.nhlbi.nih.gov/grants-and-training/summer-institute-biostatistics" target="_blank">National Institute of Health (NIH) Summer Institute for Biostatistics & Data Science</a>.</p>
         <p>Worked on a variety of projects relating to the intersection of machine learning and statistics with health care and biology, including:</p>
         <ul>

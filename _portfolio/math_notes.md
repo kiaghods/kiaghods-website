@@ -6,7 +6,7 @@ title: "Mathematics Notes - Kia Ghods"
 <main>
     <section id="description">
         <h2>Mathematics Notes</h2>
-    <img src="{{ '/assets/media/4ColorTheorem.png' | relative_url }}" alt="4 Color Theorem Diagram" class="portfolio-img">
+    <img src="{{ '/assets/media/4ColorTheorem.webp' | relative_url }}" alt="4 Color Theorem Diagram" class="portfolio-img">
        <p>View the repository with notes <a href="https://github.com/kiaghods/Math-Notes" target="_blank">here</a>.</p>
         <p>Inspiration for formatting:</p>
         <ul>
