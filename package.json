@@ -1,11 +1,12 @@
 {
   "name": "kiaghods-website",
   "description": "Minimalistic Personal Portfolio",
-  "main": "gulpfile.js",
+  "main": "gulpfile.mjs",
   "scripts": {
     "gulp": "gulp"
   },
   "devDependencies": {
+    "del": "^7.1.0",
     "got": "^11.8.5",
     "gulp": "^5.0.0",
     "gulp-clean-css": "^4.3.0",
@@ -15,5 +16,6 @@
   "dependencies": {
     "sharp": "^0.33.4",
     "through2": "^4.0.2"
-  }
+  },
+  "type": "module"
 }
