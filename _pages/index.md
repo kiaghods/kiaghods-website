@@ -14,7 +14,7 @@ permalink: /
 
 <main>
     <section id="description">
-        <p>Broadly interested in modern natural language processing, reinforcement learning, natural/genetic algorithms, and the mathematical foundations of machine learning. Currently working on <a href="/portfolio/comp_neuro">serial reasoning of LLMs</a>, <a href="/portfolio/stealth">a stealth startup</a>, and am developing <a href="/portfolio/epidemiological_modeling">within-host HIV models accounting for drug-resistance</a>.</p>
+        <p>Broadly interested in modern natural language processing, reinforcement learning, natural/genetic algorithms, and the mathematical foundations of machine learning. Currently working on <a href="/portfolio/comp_neuro">serial reasoning of LLMs</a>, a <a href="/portfolio/stealth">stealth startup</a>, and am developing <a href="/portfolio/epidemiological_modeling">within-host HIV models accounting for drug-resistance</a>.</p>
     </section>
     <section id="projects">
         <div class="project-grid">
